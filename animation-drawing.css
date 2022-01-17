@@ -50,11 +50,11 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 5px;
-    background-image: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: black;
     background-size: cover;
     cursor: pointer;
     padding: 0;
-    border: 3px solid black;
+    border: 3px solid darkslategray;
 
 }
 .play-button span{
@@ -65,8 +65,8 @@ body{
     width: 10px;
     height: 30px;
     border-radius: 2px;
-    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-    transition: .5s;
+    background-color: darkslategray;
+    transition: .2s;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     
 }
@@ -88,7 +88,7 @@ body{
     clip-path: polygon(0 0, 100% 50%, 100% 50%, 0% 100%);
 }
 .play-buton.pause{
-    animation: pulse 2s linear infinite;
+    animation: pulse 1s linear;
 }
 @keyframes pulse{
     0%{
